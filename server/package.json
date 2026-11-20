@@ -1,0 +1,22 @@
+{
+  "name": "bda-server",
+  "version": "1.0.0",
+  "description": "Backend API for MongoDB-Based Big Data Storage, Processing, and Analysis System",
+  "author": "AchalRaj0709 <rajachalp782@gmail.com>",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test_system.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}
+

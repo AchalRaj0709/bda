@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-bigdata-analytics-system",
+  "version": "1.0.0",
+  "description": "MongoDB-Based Big Data Storage, Processing, and Analysis System",
+  "scripts": {
+    "server": "node --watch server/server.js",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "seed": "node server/services/generatorService.js"
+  },
+  "keywords": [
+    "mongodb",
+    "bigdata",
+    "analytics",
+    "mern",
+    "aggregation-pipeline",
+    "recharts",
+    "vite"
+  ],
+  "author": "AchalRaj0709 <rajachalp782@gmail.com>",
+  "license": "MIT"
+}
+
